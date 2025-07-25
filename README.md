@@ -103,7 +103,7 @@ C言語の`printf`関数で使用する主な書式指定子とその説明を�
 ```c
 printf("%8.3f", 3.14159); // "   3.142"
 printf("%-10s", "hello"); // "hello     "
-##🔎 長さ修飾子（length modifier）
+## 🔎 長さ修飾子（length modifier）
 修飾子	説明	使用例
 h	short型	%hd
 l	long型	%ld
@@ -111,7 +111,7 @@ ll	long long型	%lld
 z	size_t型	%zu
 L	long double型	%Lf
 
-##🧪 例（Examples）
+## 🧪 例（Examples）
 c
 int a = 123;
 float pi = 3.14;
